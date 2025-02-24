@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "biolume-is",
+  "private_key_id": "0cdb2828674625dc1719a93f5338fdb8a5416bc5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCdDuDRHV3YAm0t\nDouzC8PHfzXzEA1mFZco+qpsGnjN0XkdwlNFxmvnlWp9o8qd4+NUlUFLR3N3cHqE\nBcN2ilT6LZKaHGdwdPd6C/uBNjWuLwpuNCuOoeRTHnFLkJqnYmQytgfB7Kzz2qQG\n/wzx9xOZPOR9oEUG4NcZr9ISk40xfRUqDvjpImZCaYO68Dd2Q/SFRQnudlAlQHiz\nZhrwdsvkfV6o85K89Eh2msFJEZ/6uvZTNHd2JR1seLOPN30hcpOLhx02bb+kRcUH\n7bjX5rFscd0A30UAB6q9Gz5KMVD6j6/dfw0wj8DuGco3/FyJ5MfciK4j/XLBeA2F\nz60hX40LAgMBAAECggEAAx2McBl5BxPlPoOPWdnd5FMtqsiiu2eqO/Hc94/+3XZO\nRLzaEgRBl7JrDlr1ZfRjSgY76VZdf/0HMR88JVnRHbVRtyThGGX5kr4yGvoMTow4\nVL9MLeQgN1XfQXR43OEiw67AsKQVOjEYF9tvUk1oYh3HGobXV6+WFLhcHmo23sho\nckOTo1u5ESBnYx4kq9H2QQGfI2oJPJ+uayTv/FigQaOCgxYQdMtOPBGl98wWKoz5\nHV45Wj9s9lfkqNCQ14OcT7VTShbVHJZFU/swZspCdV68ggBPzn0/JGxSgZMPphx6\nlQjgLaNZfOnqbrYMdt3/+4moG45EkJ7JZUHmXgX3IQKBgQDMB0IkvHis0rGwZkeL\nqAAoCUJJnKzf5ZMeagmCJY7Eg5EwF+LZjvnzOkl+Udg42uJSp6LRLI0J9ifEVX/3\nuzAaZtFzk/oFY4lZHQoN2cre2uUXmXa//hdVR/yJOgdVRZvS8WHk8f2X3xCIkbt8\nsDQZ3UDzBRvfmJb/GRTqyEJqBwKBgQDFEK279znJz4bjLcK03xNXUkmddQBy4C+C\nsK0c30QR9desFhJji8KZGa6Yih48EdZXlzgaxeVs6SaYcJ0zdrZMYQokoT8cCoHB\nVSA+sGQLWva9YbuosJldyxV3P+eTgCbtKnLG3P11abz6ojhfRrGxogJ73dKVveFy\nc/UfT5iT3QKBgC5Imz2gL7Ps2/hLS4Gn69kpOItgamskNjqZDW0jvf5gZkhFsuVt\npNADcfag9G75YIwlkS7ob1pKJ/1G9A+rvB7RIkSY1gfw65B2oPhBZt8lQwEWhDTL\nnFlxSh2LN2ylrNKuhWmdZ8zTAnoorSJ9CmSvp3M5vnf7so1OEEuugDpzAoGBALzR\n9VXUVee71CgbMaPy1uplaynW8N4hVwSnWsf+WY/H+qXl5CrDwGrIA9YfCUdPZAw7\nVcO5eNH5OET6KnYkOhpHJNviMMEihB+F/EZ05vdGaoMdgRzqUZlgPKotbiuTsDiw\n4pcPKkB1V2DjTJZl+18Tt8ON0PgvnzP2TZl5v911AoGBALs3D+04D3LkqMVf03pC\nVxnntet75KyytN8GEpsTU4m69LTd1c03iUZCgBjxz1rZ5OSmECC9O0S0aDO4yWDY\nyMu2kav+/hKsMjIXC1NHMKe+97OOdCRmMQM97QdPdFYuwFTZ5wXpcJZvLWqdkqAf\nAV78I1KyEU1UDvducsA3/pBZ\n-----END PRIVATE KEY-----\n",
+  "client_email": "gsheets-python-access@biolume-is.iam.gserviceaccount.com",
+  "client_id": "101809676500595177681",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gsheets-python-access%40biolume-is.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -6,7 +6,7 @@ import json
 import os
 
 # Save credentials to a file
-CREDENTIALS_FILE_PATH = "credentials.json"
+CREDENTIALS_FILE_PATH = "https://github.com/rigved-sarougi/Streamlit/blob/f4bffc0cd98f512d4fe85f85f28fd519acab65f2/credentials.json"
 
 with open(CREDENTIALS_FILE_PATH, "w") as file:
     json.dump(CREDENTIALS_FILE, file)

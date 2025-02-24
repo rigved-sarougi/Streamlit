@@ -6,7 +6,19 @@ import json
 import os
 
 # Save credentials to a file
-CREDENTIALS_FILE_PATH = "https://github.com/rigved-sarougi/Streamlit/blob/f4bffc0cd98f512d4fe85f85f28fd519acab65f2/credentials.json"
+CREDENTIALS_FILE_PATH = {
+  "type": "service_account",
+  "project_id": "orbital-stream-451911-f8",
+  "private_key_id": "d2a7ecbbe191f851349b7a1b51c686941a1bd960",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCvT+SORyuuY9vp\nWPayvlfCFmVCu1McpovYkKRhlWkJrvtwdQUW2+cAQGloWohmwYZL0qMZIWko9imm\nUbct2xlgLSiZgIWucY5z/EE6WslOCIOTWh/e0/5FxvaQJFw+pVxVFU9DocC4FSZq\n+5bkGOCoWis0/smYz63W0KWgXMNAwp2FelZ9eoZzYDt3L8W1UZgh/yfU3e7xHrts\nyMPTbi/1Dy73uQX6XXTQ+KOmvARATp3G1mxuQ0dta+18Zdkd0mRiNzRPOC664MQ1\nxVwrk99cvhDZKpf042PJ5h2Hvrm/9K4N3C0tu939HCufXCm+No4Uv3/ZnYKt4CWF\ny5n3r1IhAgMBAAECggEADuQfoxk3A+NeDuJcZB7oZ+dMlyA/xUd9SfoxSEuvZh/r\noigCdGhd5QbTnUZRXz8Rd/fOnEga/Vx5ebPnthit/V4gnHdPA5wIMGBtLvZ+smbl\nPDszyVLi/ozRrTk1b6nOn7iFaNaAvvIm9v/jV4Eodgxgrqn0uErttnk3FFnEyQeK\n5xagB6CKXLiWhWqkDuUCQmUWshhep+87mayCW8APkxMhwIsU7nkR84ypIc6EkB0c\n74rVKwP+HigERhKV/pR05euaxxu3gWo9Is56OeGJDaV13f5uHpbd2Sp0CV+AXNqV\n6Jp/g0Bgovp4VihC4St+arE5/+NtXP3PyUpxqckP5QKBgQDZLFDXKYRqGKAUXFM3\ncnLy29ye1QoGgPjOwwlx271GGGqRdY11wyE3P8e69gqT7quplXKX6UHjD6Jw5ToL\n7TE9zZQKra+sAxTJDqzY0Ul+/RcerlaPBNHnd8fr4qrMXGBWdkka9owjbV6GvzpJ\n5+JNLX2iKzswvQ/lO3a9CnKtBQKBgQDOp6lEi2hJS4rmV9Jh1ff3Tuzr1zTZZdFO\nYQNqGVWjACuVpejzrB+g3BxbEt6DJ/m06zB/pTlCsl/kOAeeLusw+rqnLZlzo7k9\nJ2mWVymxqM5Mi8dlCbrZLeCnT7k9rZNRgGazFExxBdq3b+JdOZBpl/UAM23FVpBc\nqOq2/+W7bQKBgHmI92Sx80x8o3lBgcCR6ApJSFoK1yV0n8j2FR8G3hGQMHNe2d+B\nZ+FHbDsQ3jKTarXo0Mx62Uh8w2dyoN1zzA7OMX8YXCtjPgqWj9x2oy7R7FJbNk2r\nYNysh9FWdEcRm0hHwfm46AwbdL7r3W7muhp+zsQmdWV9KJwcfwKkCjERAoGBAMpu\nxosUnJWf4HJ/eODJvtuNftwPtf93k67ZrYSTSKYhlpBDM4zvARSMSWKVe06zLBKj\niKChcxP4s6JVmHDFuTIDijAVpQn4SY60OuRAgeE8YMnu6uX4wAXawQRkPitDCtp9\nkxy9N5xHhdbHTNDRgLtPVXpa5p62izeZaELXLW2JAoGAaWEsqrQGxWWYL/bMZTTt\nZ6cGtlXePB/HEruXjib1t431N7kq0+u0ZphQbktQLKVIeRFhhLPbplH+9ha1H/AQ\nvAhJiCy5b8b4nNKj1w7RHTt+/VNICxB/ArpKCJqii2HIkAERLOtcAkLSnDo4b28E\nRH8OG++A1OBujG+63wiaHwc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "streamlit-app@orbital-stream-451911-f8.iam.gserviceaccount.com",
+  "client_id": "106921985923872598239",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/streamlit-app%40orbital-stream-451911-f8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
 
 with open(CREDENTIALS_FILE_PATH, "w") as file:
     json.dump(CREDENTIALS_FILE, file)

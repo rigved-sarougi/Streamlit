@@ -15,9 +15,9 @@ def connect_to_gsheet(creds_json,spreadsheet_name,sheet_name):
     return spreadsheet.worksheet(sheet_name)
 
 # Google Sheet credentials file
-SPREADSHEET_NAME = 'biolume-is'
+SPREADSHEET_NAME = 'Streamlit'
 SHEET_NAME = 'Sheet1'
-CREDENTIALS_FILE = './biolume-is-0cdb28286746.json'
+CREDENTIALS_FILE = './credentials.json'
 
 # Connect to the Google Sheet
 sheet_by_name = connect_to_gsheet(CREDENTIALS_FILE, SPREADSHEET_NAME, sheet_name=SHEET_NAME)

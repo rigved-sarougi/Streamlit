@@ -18,7 +18,7 @@ def connect_to_gsheet(creds_json, spreadsheet_name, sheet_name):
 # Google Sheet credentials and details
 SPREADSHEET_NAME = 'Streamlit'
 SHEET_NAME = 'Sheet1'
-CREDENTIALS_FILE = './credentials.json'
+CREDENTIALS_FILE = 'credentials.json'
 
 # Connect to the Google Sheet
 sheet_by_name = connect_to_gsheet(CREDENTIALS_FILE, SPREADSHEET_NAME, sheet_name=SHEET_NAME)
